@@ -1,0 +1,114 @@
+body {
+  width: 100vw;
+  max-width: 70%;
+  margin: auto;
+  background-color: #eaeded;
+}
+
+.info {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
+#header-img {
+  width: 10%;
+  height: 70%;
+  margin-right: 15px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+#nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 25px;
+}
+
+.title {
+  text-align: center;
+}
+
+#form {
+  text-align: center;
+}
+
+#form #email,
+#form #submit {
+  border: grey 2px solid;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form #email {
+  margin-bottom: 10px;
+}
+
+.instrumento-img {
+  width: 20%;
+  height: 10%;
+}
+
+.container {
+  display: flex;
+  margin: 40px;
+}
+
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  justify-content: center;
+}
+
+.inner-container h3 {
+  margin: 0;
+}
+
+#video {
+  width: 50%;
+  height: 315px;
+  display: block;
+  margin: 0 auto;
+}
+
+#sells {
+  display: flex;
+}
+.venta {
+  border: 2px solid black;
+  text-align: center;
+}
+.venta h4 {
+  background-color: #ccd1d1;
+  margin: auto;
+  height: 20%;
+  text-align: center;
+}
+
+footer {
+  background-color: #a6acaf;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 50px;
+}
