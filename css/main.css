@@ -257,7 +257,6 @@ footer nav{
   #header{
     display: flex;
     flex-direction: column;
-    height: 30%;
     align-content: flex-start;
   }
 
@@ -272,6 +271,7 @@ footer nav{
     display: initial;
     text-align: center;
     height: auto;
+    background-color: #2C3E50;
   }
   .nav-link{
     font-size: 0.9rem;
