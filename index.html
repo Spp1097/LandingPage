@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montaga&family=Noto+Serif+JP&family=Overlock+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>LandingPage</title>
 </head>
@@ -16,123 +17,142 @@
         </div>
         <nav id="nav-bar">
             <ul>
-                <li><a href="#about" class="nav-link">Descripcion</a></li>
+                <li><a href="#about" class="nav-link">Descripción</a></li>
                 <li><a href="#video" class="nav-link">Demo</a></li>
-                <li><a href="#sells" class="nav-link">Comprar</a></li>
+                <li class="last"><a href="#sells" class="nav-link">Comprar</a></li>
 
             </ul>
         </nav>
     </header>
 
-    <h2 class="title">Clave, Bongo, Campana y Conga</h2>
-    <form id="form" action=" https://www.freecodecamp.com/email-submit" target="_blank">
-        <input type="email" id="email" placeholder="Enter your email" required>
-        <input type="submit" id="submit" value="Enviar">
-    </form>
 
-    <section class="about">
-        <div class="container ">
-            <img src="images/claves.jpg" alt="claves" class="instrumento-img clave">
+    <div class="main_wrapper">
 
-            <div class="inner-container">
-                <h3>Claves</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet nihil ab reprehenderit ad dolorum
-                    quam
-                    quisquam ducimus molestias facilis recusandae! Reprehenderit labore eum, pariatur nobis nemo modi
-                    mollitia fuga adipisci!
-                </p>
+        <h2 class="title">Clave, Bongo, Campana y Conga</h2>
+        <form id="form" action=" https://www.freecodecamp.com/email-submit" target="_blank">
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <input type="submit" id="submit" value="Enviar">
+        </form>
+
+        <section id="about">
+            <div class="container ">
+                <img src="images/claves.jpg" alt="claves" class="instrumento-img clave">
+
+                <div class="inner-container">
+                    <h3>Claves</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet nihil ab reprehenderit ad
+                        dolorum
+                        quam
+                        quisquam ducimus molestias facilis recusandae! Reprehenderit labore eum, pariatur nobis nemo
+                        modi
+                        mollitia fuga adipisci!
+                    </p>
+                </div>
+
             </div>
 
-        </div>
+            <div class="container">
+                <img src="images/bongo.jpg" alt="bongo" class="instrumento-img bongo">
 
-        <div class="container">
-            <img src="images/bongo.jpg" alt="bongo" class="instrumento-img bongo">
+                <div class="inner-container">
+                    <h3>Bongo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore repellat, impedit autem
+                        accusamus optio voluptatibus! Quasi placeat voluptatibus perferendis harum accusantium, quo
+                        delectus
+                        similique mollitia quas voluptatum pariatur eveniet.
+                    </p>
+                </div>
 
-            <div class="inner-container">
-                <h3>Bongo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore repellat, impedit autem
-                    accusamus optio voluptatibus! Quasi placeat voluptatibus perferendis harum accusantium, quo delectus
-                    similique mollitia quas voluptatum pariatur eveniet.
-                </p>
             </div>
 
-        </div>
+            <div class="container">
+                <img src="images/campana.jpg" alt="campana" class="instrumento-img campana">
 
-        <div class="container">
-            <img src="images/campana.jpg" alt="campana" class="instrumento-img campana">
+                <div class="inner-container">
+                    <h3>Campana</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur modi suscipit. Repellat
+                        architecto
+                        enim consequatur expedita adipisci laboriosam aperiam quos magnam eaque, ipsam cupiditate, eius
+                        maxime
+                        vitae et. Nam.</p>
+                </div>
 
-            <div class="inner-container">
-                <h3>Campana</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque tenetur modi suscipit. Repellat
-                    architecto
-                    enim consequatur expedita adipisci laboriosam aperiam quos magnam eaque, ipsam cupiditate, eius
-                    maxime
-                    vitae et. Nam.</p>
             </div>
 
-        </div>
+            <div class="container">
+                <img src="images/conga.jpg" alt="congas" class="instrumento-img congas">
 
-        <div class="container">
-            <img src="images/conga.jpg" alt="congas" class="instrumento-img congas">
+                <div class="inner-container">
+                    <h3>Congas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tenetur architecto quo dolores!
+                        Voluptas magnam deleniti id omnis molestiae ducimus quos possimus, obcaecati, laboriosam
+                        dignissimos
+                        dolorem. Ullam necessitatibus voluptatum beatae?</p>
+                </div>
 
-            <div class="inner-container">
-                <h3>Congas</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tenetur architecto quo dolores!
-                    Voluptas magnam deleniti id omnis molestiae ducimus quos possimus, obcaecati, laboriosam dignissimos
-                    dolorem. Ullam necessitatibus voluptatum beatae?</p>
             </div>
-
-        </div>
-    </section>
-
-
-    <iframe id="video" src="https://www.youtube.com/embed/wYI56WPkZbs" frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
 
 
-    <section id="sells">
-        <div class="venta-clave venta">
-            <h4>Claves</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit sit suscipit tempora et sapiente
-                incidunt, cupiditate inventore corporis tempore, qui iusto dolorem omnis dolore molestias quidem
-                corrupti natus nobis.</p>
-            <a href="#">Comprar</a>
-        </div>
-        <div class="venta-bongo venta">
-            <h4>Bongo</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit sit suscipit tempora et sapiente
-                incidunt, cupiditate inventore corporis tempore, qui iusto dolorem omnis dolore molestias quidem
-                corrupti natus nobis.</p>
-            <a href="#">Comprar</a>
-        </div>
-        <div class="venta-campana venta">
-            <h4>Campana</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit sit suscipit tempora et sapiente
-                incidunt, cupiditate inventore corporis tempore, qui iusto dolorem omnis dolore molestias quidem
-                corrupti natus nobis.</p>
-            <a href="#">Comprar</a>
-        </div>
-        <div class="venta-conga venta">
-            <h4>Conga</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit sit suscipit tempora et sapiente
-                incidunt, cupiditate inventore corporis tempore, qui iusto dolorem omnis dolore molestias quidem
-                corrupti natus nobis.</p>
-            <a href="#">Comprar</a>
-        </div>
-    </section>
+        <iframe id="video" src="https://www.youtube.com/embed/wYI56WPkZbs" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+        <section id="sells">
+            <div class="venta-clave venta">
+                <h4>Claves</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit sit suscipit tempora et
+                    sapiente
+                    incidunt, cupiditate inventore corporis tempore, qui iusto dolorem omnis dolore molestias quidem
+                    corrupti natus nobis.</p>
+                <a href="#">Comprar</a>
+            </div>
+            <div class="venta-bongo venta">
+                <h4>Bongo</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit sit suscipit tempora et
+                    sapiente
+                    incidunt, cupiditate inventore corporis tempore, qui iusto dolorem omnis dolore molestias quidem
+                    corrupti natus nobis.</p>
+                <a href="#">Comprar</a>
+            </div>
+            <div class="venta-campana venta">
+                <h4>Campana</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit sit suscipit tempora et
+                    sapiente
+                    incidunt, cupiditate inventore corporis tempore, qui iusto dolorem omnis dolore molestias quidem
+                    corrupti natus nobis.</p>
+                <a href="#">Comprar</a>
+            </div>
+            <div class="venta-conga venta">
+                <h4>Conga</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum velit sit suscipit tempora et
+                    sapiente
+                    incidunt, cupiditate inventore corporis tempore, qui iusto dolorem omnis dolore molestias quidem
+                    corrupti natus nobis.</p>
+                <a href="#">Comprar</a>
+            </div>
+        </section>
+
+
+    </div>
+
+     
     <footer>
-        <nav class="nav-link">
-            <ul>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <div class="footer_wrapper">
+            
+            <nav>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
 
-        </nav>
-        <p> &copy; Copyrigth 2020, Santiago Pulido P </p>
+            </nav>
+            <p> &copy; Copyrigth 2020, Santiago Pulido P </p>
+        </div>
     </footer>
+
 </body>
 
 </html>
